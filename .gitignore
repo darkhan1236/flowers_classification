@@ -1,0 +1,39 @@
+# Logs
+logs/
+*.log
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Build output
+dist/
+build/
+*.bak
+*.tmp
+
+# Environment variables
+.env
+.venv
+.env.local
+.env.*.local
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.pyc
+*.o
+*.so
+*.dll
+*.exe
+
+# Test reports
+coverage/
+.nyc_output/
+
+# Specific files to ignore
+my_secret_key.pem
